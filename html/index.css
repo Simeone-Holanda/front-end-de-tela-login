@@ -1,0 +1,91 @@
+body {
+    margin:0;
+    padding:0;
+    background-image:url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+
+}
+.login{
+    width:300px;
+    height:400px;
+    border: 2px solid black;
+    border-radius: 80px 0px 80px 0px;
+    color:white;
+    background: rgba(0,0,5,0.8);
+    top: 50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing:border-box;
+    padding: 68px 28px;
+
+
+}
+.img{
+    border-radius: 60%;
+    position:absolute;
+    top:-50px;
+    left:120px;
+}
+/*
+.entrar {
+    border: 1px solid rgba(0,0,0,.2);
+    background-color:#888;
+    color:black;
+    padding: 4px;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    width: 90px;
+}
+a {
+    color:rgb(209, 205, 205);
+    text-decoration: none;
+    font-size:12px;
+}
+a:hover{
+    text-decoration: underline;}*/
+
+h1{
+    font-family: 'Overpass', sans-serif;
+}
+.login input{
+    border:none;
+    width:100%;
+}
+.login input[type="email"],input[type="password"]{
+    border:none;
+    border-bottom: 1px solid white;
+    background: transparent ; 
+    outline: none;
+    height:17px;
+    color:white;
+    font-size: 16px;
+    
+}
+.login input[type="submit"]{
+    border:none;
+    outline: none;
+    border-radius: 10px 10px 10px 10px;
+    height: 25px;
+    border-radius:20px;
+    background:#000;
+    color:white;
+    transition: 0.2s;
+}
+.login input[type="submit"]:hover{
+    cursor:pointer;
+    background:#ff4d4d;
+}
+.login a {
+    font-weight: bold;
+    color:rgb(209, 205, 205);
+    text-decoration: none;
+    line-height: 20px;
+    font-size:12px;
+    transition:0.2s
+}
+.login a:hover {
+    text-decoration: underline;
+    transition:0.2s;}
+
